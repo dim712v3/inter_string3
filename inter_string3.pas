@@ -17,5 +17,9 @@ end;
 pseparators=^rseparators;
 
 implementation
+function firstchar(s:string):string;
+begin
+result:=copy(s,1,1);
+end;
 
 end.
